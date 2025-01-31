@@ -1,0 +1,33 @@
+﻿# Files created by Visual Studio that should not be included in GitHub
+.vs/
+*.vcxproj.user
+*.suo
+*.userosscache
+
+# Build outputs
+*.obj
+*.exe
+*.pdb
+*.tlog/
+*.log
+*.idb
+*.ipdb
+*.iobj
+
+# Temporary files
+*.tmp
+*.log
+
+# Unrelated workspace files
+.DS_Store
+Thumbs.db
+
+# Workspace-specific files for IDEs
+.idea/
+.vscode/
+
+# Ignore x64/Debug directory
+winapp/ConnectedApp/x64/Debug
+winapp/ConnectedApp/imgui.ini
+winapp/ImGuiLib/x64/Debug
+/x64/Debug/ImGuiLib.lib
